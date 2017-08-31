@@ -1,0 +1,34 @@
+body{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  overflow: hidden;
+  font-size: .12rem;
+}
+.header{
+  height: .44rem;
+  background: #333333;
+  color: #fff;
+  display: -webkit-flex;
+  line-height: .44rem;
+  padding-left: .15rem;
+  padding-right: .15rem;
+  box-sizing: border-box;
+  .right{
+    position: absolute;
+    right: .15rem;
+    top: .03rem;
+  }
+  h1{
+    font-size: .14rem;
+    font-weight: normal;
+    margin-left: .2rem;
+  }
+  i{
+    color: #fff;
+    font-size: .18rem;
+  }
+}
